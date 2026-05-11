@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    </listeners>
+
+    <test name="Login Tests">
+        <classes>
+            <!-- You can add multiple classes here or use <packages> to run entire packages -->
+            <class name="testcases.MyFirstTest"/>
+        </classes>
+    </test>
+</suite>
